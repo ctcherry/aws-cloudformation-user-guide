@@ -48,7 +48,7 @@ Properties:
 
 `CustomerId`  <a name="cfn-apigateway-apikey-customerid"></a>
 An AWS Marketplace customer identifier to use when integrating with the AWS SaaS Marketplace\.  
-*Required: *No  
+*Required*: No  
 *Type*: String  
 *Update requires*: [No interruption](using-cfn-updating-stacks-update-behaviors.md#update-no-interrupt)
 
@@ -66,7 +66,7 @@ Indicates whether the API key can be used by clients\.
 
 `GenerateDistinctId`  <a name="cfn-apigateway-apikey-generatedistinctid"></a>
 Specifies whether the key identifier is distinct from the created API key value\.  
-*Required: *No  
+*Required*: No  
 *Type*: Boolean  
 *Update requires*: [Replacement](using-cfn-updating-stacks-update-behaviors.md#update-replacement)
 
